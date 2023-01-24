@@ -1,0 +1,202 @@
+
+@font-face {
+    font-family: 'mistake';
+    src: url(fonts/PlusJakartaSans-VariableFont_wght.ttf);
+    font-family: 'bolder';
+    src: url(fonts/static/PlusJakartaSans-ExtraBold.ttf);
+}
+body{
+    font-family: 'mistake', Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    background-color: hsl(210, 60%, 98%);
+}
+main{
+    border-radius: 10px;
+    padding: 20px;
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    margin-top: 50px;
+}
+h2{
+    font-family: 'bolder', Arial, Helvetica, sans-serif;
+}
+.note{
+    margin-left: 160px;
+    margin-top: -50px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px 10px;
+    width: 30px;
+    height: 20px;
+    background-color: hsl(224, 73%, 17%);
+    color: white;
+    font-size: 20px;
+}
+.read{
+    text-decoration: none;
+}
+.read:active{
+    color: hsl(224, 73%, 17%);
+}
+.mark{
+    color: hsl(203, 7%, 62%);
+    margin-top: -30px;
+    font-weight: normal;
+    margin-left: 580px;
+    text-decoration: none;
+}
+.private:hover{
+    background-color: rgb(195, 208, 221);
+}
+.webbear{
+    width: 6%;
+    float: left;
+    margin-right: 10px;
+}
+.webber{
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    background-color: hsl(204, 31%, 94%);
+}
+.marrk{
+    margin-top: -0.65px;
+    height: 5px;
+   font-weight: normal;
+}
+.post:active{
+    color: hsl(224, 21%, 14%);
+}
+.post{
+    text-decoration: none;
+    font-weight: 600;
+    color: hsl(206,8%,60%);
+}
+.chess{
+    font-weight: 600;
+    color: hsl(224, 88%, 23%);
+}
+taiwo{
+    font-weight: normal;
+    color: hsl(206, 8%, 60%);
+}
+li{
+    margin-top: -20px;
+    margin-left: 530px;
+    color: red;
+}
+.rew{
+    margin-left: 415px;
+    color: red;
+}
+.months{
+    margin-top: 15px;
+    font-weight: normal;
+    color: hsl(205, 14%, 74%);
+}
+.minute{
+    margin-top: -15px;
+    font-weight: normal;
+    color: hsl(205, 14%, 74%);
+}
+.check{
+    text-decoration: none;
+    color: black;
+}
+.check:active{
+    color:rgb(0, 128, 255);
+}
+.days{
+    font-weight: normal;
+    color: hsl(205, 14%, 74%);
+}
+.angela{
+    margin-top: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    background-color: hsl(204, 31%, 94%);
+}
+.jacob{
+    margin-top: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    background-color: hsl(204, 31%, 94%);
+}
+.closer{
+    margin-left: 219px;
+}
+.private{
+    margin-left: 50px;
+    color: hsl(206, 8%, 60%);
+    font-weight: normal;
+    border: 2px solid hsl(216, 8%, 88%);
+    box-sizing: border-box;
+    padding: 20px;
+    border-radius: 5px;
+}
+header{
+    margin-bottom: 50px;
+}
+.rizzy{
+    margin-top: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.kim{
+    margin-top: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.yes{
+    visibility: hidden;
+}
+.nathan{
+    margin-top: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.minutes{
+    margin-top: 35px;
+    font-weight: normal;
+    color: hsl(205, 14%, 74%);
+}
+.left{
+    width: 6%;
+    float: right;
+    margin-top: -20px;
+}
+@media screen and (max-width:514px) {
+    h2{
+        font-size: 20px;
+    }
+    .note{
+        margin-left: 140px;
+        width: 20px;
+    }
+  .webber{
+    width: 460px;
+  }
+  .mark{
+    margin-left:300px ;
+  }
+  .minute{
+    margin-left: 30px;
+    margin-top: 20px;
+  }
+  .angela, .jacob, .rizzy, .kim, .nathan{
+    width:460px;
+  }
+  li{
+   visibility: hidden;
+  }
+  .role{
+    margin-top: -10px;
+  }
+  .tweet{
+    margin-left:30px;
+  }
+}
